@@ -1,6 +1,7 @@
 # Around
 
 /************   July 8th         **********/
+
 Add Token-Based Authentication when users post and search posts: 
 use jwt to protect post and search endpoints (reject if without auth token)
 
