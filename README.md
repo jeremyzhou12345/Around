@@ -1,6 +1,14 @@
 # Around
 
-/************   July 7th         **********/
+Apply our servers on GAE(on cloud servers which can avoid local machine and balance load). Install ElasticSearch on GCE(virtual machine).
+
+Use BigTable to store non-relational data(User,Location), while use dataflow and BigQuery to deal with relational data. Store unstructured data(file,images) to Google Cloud Storage
+
+Use Machine Learning to analyse data. 
+
+app.yaml: 
+to tell google that your program is a go program and use go compiler to run it.
+When running on Google App Engine, flexible environment automatically balance the load
 
 Add Token-Based Authentication when users post and search posts: 
 use jwt to protect post and search endpoints (reject if without auth token)
